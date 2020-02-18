@@ -217,7 +217,7 @@ void MachineScene::start()
 {
 #pragma region Images Initialization
 	m_pSlotMachine = new SlotMachine();
-	//m_pKiwi = new KiwiImage();
+	m_pKiwi = new KiwiImage();
 	m_pBanana = new BananaImage();
 	m_pWaterMelon = new WaterMelonImage();
 	m_pRotten = new Rotten();
